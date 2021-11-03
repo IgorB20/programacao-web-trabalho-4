@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: backgroundColor, color: "#fff", width: "100%", position: "fixed", zIndex: 9999, transition: "0.3s" }}>
+      <nav className="navbar navbar-dark navbar-expand-lg" style={{ backgroundColor: backgroundColor, color: "#fff", width: "100%", position: "fixed", zIndex: 9999, transition: "0.3s" }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src="/assets/images/logo2.png" alt="" width={150} />
@@ -32,7 +32,7 @@ export default function Header() {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ fontSize: "14px", fontWeight: "500" }}>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ fontSize: "14px", fontWeight: "500"}}>
               <li className="nav-item">
                 <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Sobre</a>
               </li>

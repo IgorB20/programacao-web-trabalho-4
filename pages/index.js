@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <div className={styles.banner}>
-          <div>
+          <div className="container">
             <h1 className="text-center">Nós vamos mudar a sua vida</h1>
             <h3 className="text-center">Você está preparado?</h3>
           </div>
