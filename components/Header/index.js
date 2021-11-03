@@ -34,16 +34,16 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ fontSize: "14px", fontWeight: "500"}}>
               <li className="nav-item">
-                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Sobre</a>
+                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#about">Sobre</a>
               </li>
               <li className="nav-item">
-                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Serviços</a>
+                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#services">Serviços</a>
               </li>
               <li className="nav-item">
-                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Portfólio</a>
+                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Cadastre-se</a>
               </li>
               <li className="nav-item">
-                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#">Contato</a>
+                <a style={{ color: "#fff" }} className="nav-link active" aria-current="page" href="#contact">Contato</a>
               </li>
             </ul>
             <a style={{ color: "#fff", marginRight: "20px", cursor: "pointer" }}>

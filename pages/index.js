@@ -20,26 +20,22 @@ export default function Home() {
         </div>
 
 
-        <section className="py-5 mb-5 mt-5" style={{ background: "#f2f2f2" }}>
+        <section className="py-5 mb-5 mt-5" id="about" style={{ background: "#f2f2f2" }}>
           <div className="container">
             <h1 className="text-center">Conheca nossa história</h1>
             <p className="text-center" style={{ color: "#696666" }}>Somos o banco que mais cresce em todo o mundo</p>
-
-            {/* <div className="text-center">
-              <i style={{ fontSize: "64px" }} className="fas fa-university"></i>
-            </div> */}
-
             <div className="d-flex justify-content-center mt-4">
 
 
               <div className="w-50" style={{ marginRight: "24px" }}>
                 <p style={{ color: "#696666" }} className="text-center">
-                  A nossa história começa em 1875, quando o navegador Sir James Hataway fundou o MasterBank na Inglaterra, após retornar de uma expedição às Américas.
+                  A nossa história começa em 1875, quando o navegador Sir James Cook fundou o MasterBank na Inglaterra, após retornar de uma expedição às Américas.
 
                 </p>
 
                 <p style={{ color: "#696666" }} className="text-center">
-                  Somos um banco que conhece os seus clientes e sabe como ajudá-los. Temos o know-how de investimentos
+                  Somos um banco que conhece os seus clientes e sabe como ajudá-los. Temos o know-how em investimentos e uma longa história de sucesso. Estamos prontos para ajudar você.
+                  Seja bem vindo ao MasterBank.
 
                 </p>
 
@@ -47,10 +43,6 @@ export default function Home() {
                   <img src="/assets/images/logo2.png" alt="" width={200} />
                 </div>
 
-
-                {/* <div className="d-flex justify-content-center mt-4">
-                  <button className="btn btn-dark" style={{ margin: "0 auto" }}>ABRA SUA CONTA</button>
-                </div> */}
               </div>
             </div>
 
@@ -69,34 +61,15 @@ export default function Home() {
           </div>
 
           <div className="col-sm" style={{ marginLeft: "32px" }}>
-            <h1 className="w-75">Nós sabemos que podemos fazer a diferença na sua vida financeira</h1>
+            <h1 className="w-75 mt-4">Nós sabemos que podemos fazer a diferença na sua vida financeira</h1>
 
-            <button className="btn btn-dark mt-5">Saiba mais</button>
+            <button className="btn btn-dark mt-4">Saiba mais</button>
           </div>
         </div>
 
-        {/* 
-        <div className="mt-5 position-relative d-lg-none" style={{
-          backgroundImage: "url(https://images.pexels.com/photos/9067435/pexels-photo-9067435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
-          backgroundSize: "100%",
-          backgroundRepeat: "no-repeat",
-          width: "100%",
-          height: "100vh"
-        }}>
-          <h1 className="text-left position-absolute"
-            style={{
-              top: "50%",
-              left: "100px",
-              width: "30%",
-            }}
-          >Tudo que você precisa na palma da sua mão</h1>
-        </div> */}
+    
 
-
-
-
-
-        <section style={{ background: "#f2f2f2" }} className="py-5">
+        <section style={{ background: "#f2f2f2" }} id="services" className="py-5">
           <div className="container" >
             <h1 className="text-center">Nossos serviços</h1>
             <p className="text-center" style={{ color: "#696666" }}>Oferecemos as melhores vantagens para você</p>
@@ -111,32 +84,32 @@ export default function Home() {
 
               <ServiceCard
                 title={"Investimentos personalizado"}
-                description={"Nossa conta oferece os últimos recursos para você não se preocupar com seu dinheiro"}
+                description={"Nosso time de especialistas irá te ajudar a fazer seu dinheiro render"}
                 icon={<i style={{ fontSize: "54px" }} className="fas fa-coins"></i>}
               />
 
               <ServiceCard
                 title={"Cartão de crédito MasterBank"}
-                description={"Nossa conta oferece os últimos recursos para você não se preocupar com seu dinheiro"}
+                description={"Cartão com varios benefícios incluindo crédtio ilimitado"}
                 icon={<i style={{ fontSize: "45px" }} className="fas fa-money-check-alt"></i>}
               />
 
               <ServiceCard
-                title={"Conta digital exclusiva"}
-                description={"Nossa conta oferece os últimos recursos para você não se preocupar com seu dinheiro"}
-                icon={<i style={{ fontSize: "64px" }} className="fas fa-mobile-alt"></i>}
+                title={"Recarga de celular"}
+                description={"Recarregue seu celular com a gente e ganhe bônus exclusivos"}
+                icon={<i style={{ fontSize: "64px" }} className="fas fa-phone-alt"></i>}
               />
 
               <ServiceCard
-                title={"Investimentos personalizado"}
-                description={"Nossa conta oferece os últimos recursos para você não se preocupar com seu dinheiro"}
-                icon={<i style={{ fontSize: "54px" }} className="fas fa-coins"></i>}
+                title={"Tranferências com pix"}
+                description={"Faça transferências ilimitadas sem nenhuma pagar nenhuma taxa"}
+                icon={<i style={{ fontSize: "54px" }} className="fas fa-comments-dollar"></i>}
               />
 
               <ServiceCard
-                title={"Cartão de crédito MasterBank"}
-                description={"Nossa conta oferece os últimos recursos para você não se preocupar com seu dinheiro"}
-                icon={<i style={{ fontSize: "45px" }} className="fas fa-money-check-alt"></i>}
+                title={"Realize empréstimos"}
+                description={"Consiga empréstimos para realizar o seu sonho"}
+                icon={<i style={{ fontSize: "45px" }} className="fas fa-landmark"></i>}
               />
 
 
@@ -147,7 +120,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section id="contact">
           <div className="container py-5">
             <h1 className="text-center">Entre em contato</h1>
             <p className="text-center" style={{ color: "#696666" }}>Vamos tirar todas as suas dúvidas</p>
