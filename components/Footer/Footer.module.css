@@ -1,0 +1,16 @@
+.list{
+    list-style-type: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.list li{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.list_title{
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    opacity: 0.8;
+}
